@@ -1,0 +1,19 @@
+.ata-info {
+  max-width: 80%;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.ata-info h1 {
+   font-size: 32px
+}
+
+.ata-info p{
+  font-size: 18px;
+  color: #999;
+  margin-top: 5px;
+  line-height: 24px;
+}

@@ -3,15 +3,15 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Main from './pages/main';
-import CreateAta from './pages/createAta';
-import Ata from './pages/ata';
+import AddAta from './pages/addAta';
+import Atas from './pages/atas';
 
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/" component={Main} />
-      <Route path="/ata" component={CreateAta} />
-      <Route path="/ata/:id" component={Ata} />
+      <Route exact path="/" component={Main} />
+      <Route path="/addatas" component={AddAta} />
+      <Route path="/atas/:id" component={Atas} />
     </Switch>
   </BrowserRouter>
 );

@@ -1,0 +1,28 @@
+.ata-add {
+  max-width: 70%;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.ata-add p{
+  font-size: 18px;
+  color: #999;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.ata-add .title {
+  padding-bottom: 20px;
+}
+
+.ata-add .title h1 {
+   font-size: 22px
+}
+
+.ata-add .title hr {
+  margin-top: 8px;
+  background-color: #999;
+}
